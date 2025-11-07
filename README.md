@@ -72,40 +72,6 @@ npm run dev
 
 👉 http://localhost:5173
 
-✅ Project Structure
-weather-dashboard/
-├── .env
-
-├── index.html
-
-├── package.json
-
-├── src/
-
-│   ├── App.jsx
-
-│   ├── main.jsx
-
-│   ├── api/
-│   │   └── openWeather.js
-
-│   ├── components/
-│   │   ├── SearchBar.jsx
-
-│   │   ├── CurrentWeather.jsx
-
-│   │   ├── Forecast.jsx
-
-│   │   ├── Spinner.jsx
-
-│   │   └── ErrorBanner.jsx
-
-│   ├── hooks/
-│   │   └── useWeather.js
-
-│   └── styles.css
-
-└── README.md
 
 ✅ Deployment Instructions
 🚀 Deploy to Vercel
