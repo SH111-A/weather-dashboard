@@ -91,9 +91,13 @@ weather-dashboard/
 
 │   ├── components/
 │   │   ├── SearchBar.jsx
+
 │   │   ├── CurrentWeather.jsx
+
 │   │   ├── Forecast.jsx
+
 │   │   ├── Spinner.jsx
+
 │   │   └── ErrorBanner.jsx
 
 │   ├── hooks/
