@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.searchBar {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 60px;
+}
+
+.iconRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.temp {
+  font-size: 40px;
+}
+
+.forecastGrid {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #64748b;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  background: #ef4444;
+  padding: 10px;
+  border-radius: 5px;
+}
