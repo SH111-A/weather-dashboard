@@ -1,4 +1,6 @@
-🌤️ React Weather Dashboard
+🌤️ React Weather Dashboard 
+deployed:https://weather-dashboard-liard-beta.vercel.app/
+
 ✅ Project Overview
 
 The React Weather Dashboard is a frontend-only application that fetches and displays live weather information from the OpenWeatherMap API.
